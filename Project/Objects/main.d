@@ -1,0 +1,13 @@
+.\objects\main.o: ..\User\main.cpp
+.\objects\main.o: ..\CMSIS\stm32f4xx.h
+.\objects\main.o: ..\CMSIS\core_cm4.h
+.\objects\main.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: ..\CMSIS\core_cmInstr.h
+.\objects\main.o: ..\CMSIS\core_cmFunc.h
+.\objects\main.o: ..\CMSIS\core_cmSimd.h
+.\objects\main.o: ..\CMSIS\system_stm32f4xx.h
+.\objects\main.o: ..\User\Driver/FlashMemory.h
+.\objects\main.o: ..\User\Driver/InteriorFlash.h
+.\objects\main.o: ..\User\Driver/LogUart.h
+.\objects\main.o: ..\User\Custom/OTAManager.h
+.\objects\main.o: ..\User\Driver/MainUart.h

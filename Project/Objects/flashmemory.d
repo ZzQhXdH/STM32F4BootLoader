@@ -1,0 +1,9 @@
+.\objects\flashmemory.o: ..\User\Driver\FlashMemory.cpp
+.\objects\flashmemory.o: ..\User\Driver/FlashMemory.h
+.\objects\flashmemory.o: ..\CMSIS\stm32f4xx.h
+.\objects\flashmemory.o: ..\CMSIS\core_cm4.h
+.\objects\flashmemory.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flashmemory.o: ..\CMSIS\core_cmInstr.h
+.\objects\flashmemory.o: ..\CMSIS\core_cmFunc.h
+.\objects\flashmemory.o: ..\CMSIS\core_cmSimd.h
+.\objects\flashmemory.o: ..\CMSIS\system_stm32f4xx.h

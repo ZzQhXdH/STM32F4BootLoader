@@ -1,0 +1,11 @@
+.\objects\loguart.o: ..\User\Driver\LogUart.cpp
+.\objects\loguart.o: ..\User\Driver/LogUart.h
+.\objects\loguart.o: ..\CMSIS\stm32f4xx.h
+.\objects\loguart.o: ..\CMSIS\core_cm4.h
+.\objects\loguart.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\loguart.o: ..\CMSIS\core_cmInstr.h
+.\objects\loguart.o: ..\CMSIS\core_cmFunc.h
+.\objects\loguart.o: ..\CMSIS\core_cmSimd.h
+.\objects\loguart.o: ..\CMSIS\system_stm32f4xx.h
+.\objects\loguart.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\loguart.o: D:\keil\ARM\ARMCC\Bin\..\include\stdarg.h

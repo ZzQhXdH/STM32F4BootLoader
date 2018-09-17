@@ -1,0 +1,76 @@
+Dependencies for Project 'BoolLoader', Target 'BootLoader': (DO NOT MODIFY !)
+F (..\CMSIS\system_stm32f4xx.c)(0x5AC5CF7D)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+F (..\CMSIS\startup_stm32f40_41xxx.s)(0x5B5FABEF)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\User\main.cpp)(0x5B692223)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+I (..\User\Driver/FlashMemory.h)(0x5B5BB70F)
+I (..\User\Driver/InteriorFlash.h)(0x5B5F96B0)
+I (..\User\Driver/LogUart.h)(0x5B5BE34E)
+I (..\User\Custom/OTAManager.h)(0x5B5F98A1)
+I (..\User\Driver/MainUart.h)(0x5B5F9EAF)
+F (..\User\Driver\FlashMemory.cpp)(0x5B5BB7CE)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\flashmemory.o --omf_browse .\objects\flashmemory.crf --depend .\objects\flashmemory.d)
+I (..\User\Driver/FlashMemory.h)(0x5B5BB70F)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+F (..\User\Driver\InteriorFlash.cpp)(0x5B5F998E)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\interiorflash.o --omf_browse .\objects\interiorflash.crf --depend .\objects\interiorflash.d)
+I (..\User\Driver/InteriorFlash.h)(0x5B5F96B0)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+I (..\User\Driver/LogUart.h)(0x5B5BE34E)
+F (..\User\Driver\LogUart.cpp)(0x5B5BE357)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\loguart.o --omf_browse .\objects\loguart.crf --depend .\objects\loguart.d)
+I (..\User\Driver/LogUart.h)(0x5B5BE34E)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\User\Driver\MainUart.cpp)(0x5B5FAFBE)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\mainuart.o --omf_browse .\objects\mainuart.crf --depend .\objects\mainuart.d)
+I (..\User\Driver/MainUart.h)(0x5B5F9EAF)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\User\Custom\OTAManager.cpp)(0x5B5FACA7)(--cpp -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User-I.\RTE\_BootLoader-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\otamanager.o --omf_browse .\objects\otamanager.crf --depend .\objects\otamanager.d)
+I (..\User\Custom/OTAManager.h)(0x5B5F98A1)
+I (..\User\Driver/FlashMemory.h)(0x5B5BB70F)
+I (..\CMSIS\stm32f4xx.h)(0x5AFB7098)
+I (..\CMSIS\core_cm4.h)(0x5B4C30B5)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (..\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (..\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (..\CMSIS\system_stm32f4xx.h)(0x582097AB)
+I (..\User\Driver/InteriorFlash.h)(0x5B5F96B0)
+I (..\User\Driver/MainUart.h)(0x5B5F9EAF)
